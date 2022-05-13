@@ -1,0 +1,17 @@
+{
+  "section": "other",
+  "titleId": "admin-tobak.navigation.label-group",
+  "searchKeyWordsHelpers": "admin-tobak.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "admin-tobak.navigation.track",
+      "path": "/admin/tobak/",
+      "searchKeyWordsHelpers": "admin-tobak.navigation.table.search.kws"
+    },
+    {
+      "labelId": "admin-tobak.navigation.recommend",
+      "path": "https://2bak.cl",
+      "searchKeyWordsHelpers": "admin-tobak.navigation.table.search.kws"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 2,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "workers": 1,
+  "events": {
+    "cancelRequested": {
+      "sender": "vtex.orders-broadcast",
+      "topics": ["cancel"]
+    }
+  },
+  "routes": {
+    "status": {
+      "path": "/_v/tobak/status/:code",
+      "public": true
+    },
+    "catalog": {
+      "path": "/_v/tobak/catalog",
+      "public": true
+    },
+    "logistics": {
+      "path": "/_v/tobak/logistics/:id"
+    }
+  }
+}

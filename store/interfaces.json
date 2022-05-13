@@ -1,0 +1,8 @@
+{
+  "pixel.tobak": {
+    "component": "index"
+  },
+  "tobak": {
+    "component": "HWStore"
+  }
+}
