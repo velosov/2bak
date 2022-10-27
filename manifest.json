@@ -1,6 +1,6 @@
 {
-  "name": "admin-app",
-  "vendor": "trainingweekdev21",
+  "name": "app-template",
+  "vendor": "vtex",
   "version": "0.0.1",
   "title": "2bak Marketing Network",
   "description": "Provide a return button for the end customer and enables giftcards for refunding",
@@ -114,12 +114,6 @@
     },
     {
       "name": "LogisticsAdmin"
-    },
-    {
-      "name": "InventoryAdmin"
-    },
-    {
-      "name": "ShippingAdmin"
     },
     {
       "name": "TransportationAdmin"
